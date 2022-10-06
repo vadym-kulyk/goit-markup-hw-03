@@ -1,0 +1,229 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-color: #757575;
+  --bg-color-main: #f5f5f5;
+  --bg-color-second: #ffffff;
+  --bg-for-button: #f5f4fa;
+  --bg-for-footer: #2f303a;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.colorlogo {
+  color: var(--accent-color);
+}
+
+.colorlogo2 {
+  color: var(--bg-color-second);
+}
+
+/* телефон та імейл вгорі різний колір */
+/* телефон та імейл внизу однакові */
+
+
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--second-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+.phone:active {
+  color: var(--accent-color);
+}
+
+
+.email {
+  color: var(--accent-color);
+  }
+
+
+.hero-block {
+  background-color: var(--bg-for-footer);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--bg-color-second);
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.advantage {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.usual-text {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.team {
+  background-color: var(--bg-for-button);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.list-marker {
+  list-style-type: none;
+}
+
+.head-style {
+  background: var(--bg-color-second);
+}
+
+/* ставимо на а */
+.navigation-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link:active {
+  color: var(--accent-color);
+}
+.navigation-link .current {
+  color: var(--accent-color);
+}
+/* додав стиль пря проєктів, щоб потім не  шукати*/
+.projects {
+  background: var(--bg-color-second);
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.projects-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--second-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+/*кнопки*/
+.button {
+  font-family: inherit;
+  color: var(--primary-text-color);
+  background-color: var(--bg-for-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  color: var(--bg-color-second);
+  background-color: var(--accent-color);
+}
+/*кнопка на головній в герої*/
+.primary-button {
+  font-family: inherit;
+  color: var(--bg-color-second);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* стилі футера*/
+.bottom-style {
+  background-color: var(--bg-for-footer);
+}
+
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--bg-color-second);
+  text-decoration: none;
+}
+/* телефон та імейл внизу однакові тому один цей стиль */
+.email-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  text-decoration: none;
+}
