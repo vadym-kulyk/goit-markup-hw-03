@@ -187,13 +187,13 @@ button {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
-.padding-for-tittle {
-  padding-top: 94px;
-}
+/*.padding-for-tittle {
+  padding-top: 94px;}*/
+
 .team {
   background-color: var(--bg-for-button);
-  padding-top: 0px;
-  padding-bottom: 94px;
+  
+  
 }
 
 .team-list {
