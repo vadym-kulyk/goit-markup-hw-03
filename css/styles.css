@@ -28,6 +28,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list-marker {
@@ -65,7 +67,7 @@ button {
 
   justify-content: space-around;
 }
-.section-padding {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -157,7 +159,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   margin-top: 0px;
 }
 
@@ -211,8 +213,7 @@ button {
 }
 .our-team-list-item {
   width: 270px;
-  margin-bottom: 10px;
-  background-color: var(--bg-color-second);
+    background-color: var(--bg-color-second);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -225,11 +226,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  margin-bottom: 10px;
-}
+  }
 
 .card-description {
-  padding: 32px;
+  padding: 30px;0
 }
 
 .page-header {
@@ -290,12 +290,12 @@ button {
 .current {
   color: var(--accent-color);
 }
-/* додав стиль пря проєктів, щоб потім не  шукати*/
+/* додав стиль пря проєктів, щоб потім не  шукати
 .projects {
   background: var(--bg-color-second);
   padding-top: 94px;
   padding-bottom: 94px;
-}
+}*/
 .buttons-list {
   display: flex;
   justify-content: center;
@@ -338,6 +338,10 @@ button {
   list-style: none;
   align-content: center;
 }
+
+.card-set li:nth-last-child(-n + 3) {
+  margin-bottom: 0;}
+
 
 .portfolio-list-item {
   align-items: center;
@@ -454,3 +458,13 @@ button {
   color: var(--second-color);
   text-decoration: none;
 }
+ .visually-hidden {
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hiiden;
+  border: 0;
+  clip: rect(0 0 0 0);
+ }
